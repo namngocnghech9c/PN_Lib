@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="200dp"
+    android:minWidth="260dp"
+    android:maxWidth="400dp"
+    android:orientation="vertical"
+    android:background="#E0F2EF"
+    >
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="120dp"
+        android:src="@drawable/success"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_success"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:text="Them moi thanh cong"
+        android:textAlignment="center"
+        android:textSize="22dp"
+        android:textStyle="italic" />
+
+</LinearLayout>

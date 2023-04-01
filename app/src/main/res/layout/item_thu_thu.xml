@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:minHeight="80sp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="10dp"
+    app:cardBackgroundColor="#D5F3EE"
+    android:layout_marginLeft="17dp"
+    android:layout_marginRight="17dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:id="@+id/tv_tenThuThu_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="ten"
+            android:textSize="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/tv_delete_thu_thu"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/philosopherregular"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_delete_thu_thu"
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:text="X"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#187C6F"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

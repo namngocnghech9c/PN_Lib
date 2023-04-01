@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:minHeight="80sp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="10dp"
+    app:cardBackgroundColor="#D5F3EE"
+    android:layout_marginLeft="17dp"
+    android:layout_marginRight="17dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:id="@+id/tv_ma_PM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mã pm"
+            android:textSize="20dp"
+            android:layout_alignParentRight="true"
+            android:fontFamily="@font/philosopherregular"
+            android:textStyle="bold"
+            android:paddingLeft="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/tv_ma_TT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mã TT"
+            android:textSize="20dp"
+            android:layout_alignParentRight="true"
+            android:fontFamily="@font/philosopherregular"
+            android:textStyle="bold"
+            android:paddingLeft="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tv_ma_PM"/>
+        <TextView
+            android:id="@+id/tv_ma_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mã tv"
+            android:textSize="20dp"
+            android:layout_alignParentRight="true"
+            android:fontFamily="@font/philosopherregular"
+            android:textStyle="bold"
+            android:paddingLeft="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tv_ma_TT"/>
+        <TextView
+            android:id="@+id/tv_ma_sachPM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mã sách"
+            android:textSize="20dp"
+            android:layout_alignParentRight="true"
+            android:fontFamily="@font/philosopherregular"
+            android:textStyle="bold"
+            android:paddingLeft="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/tv_ma_TV"/>
+        <TextView
+            android:id="@+id/tv_ngayPM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ngay"
+            android:textSize="20dp"
+            android:layout_alignParentRight="true"
+            android:fontFamily="@font/philosopherregular"
+            android:textStyle="bold"
+            android:paddingLeft="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/tv_ma_sachPM"
+            />
+        <TextView
+            android:id="@+id/tv_trangThai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="trang thai"
+            android:textSize="20dp"
+            android:layout_alignParentRight="true"
+            android:fontFamily="@font/philosopherregular"
+            android:textStyle="bold"
+            android:paddingLeft="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/tv_ngayPM"/>
+        <TextView
+            android:id="@+id/tv_tienThue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tien thue"
+            android:textSize="20dp"
+            android:layout_alignParentRight="true"
+            android:fontFamily="@font/philosopherregular"
+            android:textStyle="bold"
+            android:paddingLeft="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/tv_trangThai"
+            android:layout_marginBottom="10dp"/>
+        <Button
+            android:id="@+id/btn_traSach"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Trả sách"
+            android:layout_below="@+id/tv_tienThue"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

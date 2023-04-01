@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item
+        android:id="@+id/nav_sach"
+        android:icon="@drawable/ic_baseline_menu_book_24"
+        android:title="Quản lý sách" />
+    <item
+        android:id="@+id/nav_loai_sach"
+        android:icon="@drawable/ic_baseline_menu_book_24"
+        android:title="Quản lý loại sách" />
+    <item
+        android:id="@+id/nav_phieu_muon"
+        android:icon="@drawable/ic_baseline_menu_book_24"
+        android:title="Quản lý phiếu mượn" />
+    <item
+        android:id="@+id/nav_thanh_vien"
+        android:icon="@drawable/ic_baseline_people_24"
+        android:title="Quản lý thành viên" />
+
+    <item android:title="Thống kê"
+        android:id="@+id/nav_thong_ke">
+        <menu>
+            <item
+                android:id="@+id/nav_thong_ke_top10"
+                android:icon="@drawable/ic_baseline_format_list_numbered_24"
+                android:title="Top 10 sách mượn nhiều nhất" />
+            <item
+                android:id="@+id/nav_thong_ke_doanh_thu"
+                android:icon="@drawable/ic_baseline_attach_money_24"
+                android:title="Thống kê doanh thu" />
+        </menu>
+    </item>
+
+    <item android:title="Người dùng">
+        <menu>
+            <item
+                android:id="@+id/nav_them_thu_thu"
+                android:icon="@drawable/ic_baseline_person_add_24"
+                android:title="Thêm thủ thư"/>
+            <item
+                android:id="@+id/nav_doi_mat_khau"
+                android:icon="@drawable/ic_change_password"
+                android:title="Đổi mật khẩu" />
+            <item
+                android:id="@+id/nav_dang_xuat"
+                android:icon="@drawable/ic_baseline_logout_24"
+                android:title="Đăng xuất" />
+            <item
+                android:id="@+id/nav_thoat"
+                android:icon="@drawable/ic_baseline_exit_to_app_24"
+                android:title="Thoát" />
+        </menu>
+    </item>
+</menu>
